@@ -1,0 +1,19 @@
+title: 'NLP '
+description: >-
+  Course completely on ARTIFICAL INTELLIGENCE and covering all the models of
+  machine learning ,NLP, Python basics , Numpy , Matplot lib , Computer vison  ,
+  Django and at most covering all the basics of AI 
+template:
+  repo: nlp-template
+  name: nlp
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
